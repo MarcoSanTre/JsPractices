@@ -46,8 +46,36 @@
 
 //Práctica 4
 
-let num1 = parseInt(prompt('Ingresa el 1er número'))
-let num2 = parseInt(prompt('Ingresa el 2o número'))
+// let num1 = parseInt(prompt('Ingresa el 1er número'))
+// let num2 = parseInt(prompt('Ingresa el 2o número'))
 
-let resultado = num1 > num2 ? num1 / num2 : num2 > num1 ? num1 + num2 : num1 = num2 ? num1 * num2 : 'Error'
-console.log(resultado)
+// let resultado = num1 > num2 ? num1 / num2 : num2 > num1 ? num1 + num2 : num1 = num2 ? num1 * num2 : 'Error'
+// console.log(resultado)
+
+// Práctica 5 - Calculadora
+
+// let num1 = parseInt(prompt('Ingresa el 1er número'))
+// let num2 = parseInt(prompt('Ingresa el 2o número'))
+// let oper = prompt('Ingresa la operación quieres hacer (sum,res,div,mul)')
+
+// switch(oper){
+//     case 'sum':
+//         result = num1 + num2;
+//         break
+//     case 'res':
+//         result = num1 - num2;
+//         break
+//     case 'div':
+//         result = num1 / num2;
+//         break
+//     case 'mul':
+//         result = num1 * num2;
+//     break
+// default:
+// console.log('Operación inválida')
+// }
+// console.log('El resultado es ' + result);
+
+// Práctica 6 - Weather
+
+
