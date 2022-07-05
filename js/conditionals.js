@@ -46,8 +46,9 @@
 
 //Práctica 4
 
-let num1 = parseInt(prompt('Ingresa el 1er número'))
-let num2 = parseInt(prompt('Ingresa el 2o número'))
+// let num1 = parseInt(prompt('Ingresa el 1er número'))
+// let num2 = parseInt(prompt('Ingresa el 2o número'))
 
-let resultado = num1 > num2 ? num1 / num2 : num2 > num1 ? num1 + num2 : num1 = num2 ? num1 * num2 : 'Error'
-console.log(resultado)
+// let resultado = num1 > num2 ? num1 / num2 : num2 > num1 ? num1 + num2 : num1 = num2 ? num1 * num2 : 'Error'
+// console.log(resultado)
+
