@@ -22,9 +22,21 @@
 
 // funcionAreaTrian(10,12);
 
-let a = 10;
-function suma(num1, num2=10){
-	let a = num1 + num2;
-	return a
-}
-console.log(suma(a));
+// let a = 10;
+// function suma(num1, num2=10){
+// 	let a = num1 + num2;
+// 	return a
+// }
+// console.log(suma(a));
+
+// let variablePrueba;
+
+// console.log(variablePrueba)
+
+// function funcionDemo(a,b){
+// 	console.log(a,b)
+// }
+
+// funcionDemo(2,3);
+// funcionDemo("hola","koders");
+
