@@ -73,17 +73,40 @@
 // 	• Opcional - Un log donde veamos el promedio de las notas a dos decimales
 // Hint, use toFixed() method
 
-const grades = {
-    first_test: 7.5,
-    second_test: 10,
-    third_test: 6,
-};
+// const grades = {
+//     first_test: 7.5,
+//     second_test: 10,
+//     third_test: 6,
+// };
 
-console.log(grades.first_test + grades.second_test + grades.third_test);
-let suma = 0
-let iteraciones = 0
-for (promedio in grades) {
-    suma += grades[promedio]
-    iteraciones ++
+// console.log(grades.first_test + grades.second_test + grades.third_test);
+// let suma = 0
+// let iteraciones = 0
+// for (promedio in grades) {
+//     suma += grades[promedio]
+//     iteraciones ++
+// }
+// console.log((suma/iteraciones).toFixed(2));
+
+
+// * Ejercicio 1.
+// * Realizar una funcion que tome como parametro un objeto
+// * y devuelva un array de arrays con la siguiente estructura
+// * [ [key, value], [key, value] ]
+// * makePairs( { a: 1, b: 2 } )
+// * => [ ['a', 1], ['b', 2]]
+// *
+// * Se tiene que realizar 2 soluciones,
+// * 1 con Object.entries() y
+// *  Otra con .map()
+
+const objeto = {
+        propiedad1: "primervalor",
+        propiedad2: "segundoValor",
+        propiedad3: "tercerValor"
 }
-console.log((suma/iteraciones).toFixed(2));
+    function toArray(input){
+        let objectArray = Object.entries(input)
+        console.log(objectArray)
+    }
+ toArray(objeto)
