@@ -100,13 +100,14 @@
 // * 1 con Object.entries() y
 // *  Otra con .map()
 
-const objeto = {
-        propiedad1: "primervalor",
-        propiedad2: "segundoValor",
-        propiedad3: "tercerValor"
-}
-    function toArray(input){
-        let objectArray = Object.entries(input)
-        console.log(objectArray)
-    }
- toArray(objeto)
+// const objeto = {
+//         propiedad1: "primervalor",
+//         propiedad2: "segundoValor",
+//         propiedad3: "tercerValor"
+// }
+//     function toArray(input){
+//         let objectArray = Object.entries(input)
+//         console.log(objectArray)
+//     }
+//  toArray(objeto)
+
